@@ -9,10 +9,7 @@ Clone the repository into your catkin workspace.
 ``` 
 git clone https://github.com/Houman-HM/pepper_robot.git
 ```
-
+## Installing dependecies
 ``` 
-sudo apt-get install ros-kinetic-pepper-meshes
- ```
-
-
-1. In the first terminal: <br/>
+cd ~/catkin_ws && rosdep install --from-paths src --ignore-src -r -y
+```
