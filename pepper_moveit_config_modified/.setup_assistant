@@ -1,0 +1,11 @@
+moveit_setup_assistant_config:
+  URDF:
+    package: pepper_description
+    relative_path: urdf/pepper1.0_generated_urdf/pepper.urdf
+    xacro_args: ""
+  SRDF:
+    relative_path: config/JulietteY20MP.srdf
+  CONFIG:
+    author_name: author
+    author_email: houman@mail.com
+    generated_timestamp: 1588543331
