@@ -30,5 +30,8 @@
   <build_depend>pepper_description</build_depend>
   <run_depend>pepper_description</run_depend>
 
+  <build_depend>pepper_meshes</build_depend>
+  <run_depend>pepper_meshes</run_depend>
+
 
 </package>
