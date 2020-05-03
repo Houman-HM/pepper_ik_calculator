@@ -7,7 +7,7 @@
 Clone the repository into your catkin workspace.
 
 ``` 
-git clone 
+git clone https://github.com/Houman-HM/pepper_robot.git
 ```
 
 ``` 
