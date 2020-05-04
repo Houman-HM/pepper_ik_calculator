@@ -24,4 +24,4 @@ roslaunch pepper_moveit_config_modified demo.launch
 ``` 
 rosrun pepper_ik_calculator ik_calculator
 ```
-###### Note: The IK solver sets the joints to some random positions and tries to calculate the IK for them. However, since the numbers are random, it might happen that it would not find the right solution. Thus, you might need to run the node couple times until a valid positon is set for the joints so that the IK solver be able to calculate the joint angles.
+###### Note: The IK solver sets the links to some random poses and tries to calculate the IK for them. However, since the numbers are random, it might happen that it would not find the right solution. Thus, you might need to run the node a couple of times until a valid pose is set for the links, so that the IK solver be able to calculate the joint angles.
